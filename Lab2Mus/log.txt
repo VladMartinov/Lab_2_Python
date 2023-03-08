@@ -1,0 +1,251 @@
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, mp3, from 'C:\Lab2Mus\Buku - Front To Back.mp3':
+  Metadata:
+    title           : Front To Back (Bassnectar RMX) | Music Visualization
+    artist          : Buku
+    comment         : преобразованно с помощью https://yt2mp3.org
+    encoder         : Lavf56.33.100
+  Duration: 00:02:48.94, start: 0.023021, bitrate: 129 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc56.38
+  Stream #0:1: Video: mjpeg (Progressive), yuvj444p(pc, bt470bg/unknown/unknown), 300x300 [SAR 72:72 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+Stream mapping:
+  Stream #0:1 -> #0:0 (mjpeg (native) -> png (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[swscaler @ 000001a9f30fe440] deprecated pixel format used, make sure you did set range correctly
+[vost#0:0/png @ 000001a9f1328a40] Frame rate very high for a muxer not efficiently supporting it.
+Please consider specifying a lower framerate, a different muxer or setting vsync/fps_mode to vfr
+Output #0, mp3, to 'C:\Lab2Mus\tmp\mix0.mp3':
+  Metadata:
+    TIT2            : Front To Back (Bassnectar RMX) | Music Visualization
+    TPE1            : Buku
+    comment         : преобразованно с помощью https://yt2mp3.org
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Video: png, rgb24, 300x300 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 90k fps, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+      encoder         : Lavc60.5.100 png
+  Stream #0:1: Audio: mp3, 48000 Hz, stereo, fltp
+    Metadata:
+      encoder         : Lavc60.5.100 libmp3lame
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:14.88 bitrate=   0.1kbits/s speed=32.1x    [mp3 @ 000001a9f1323e00] No packets were sent for some of the attached pictures.
+frame=    0 fps=0.0 q=0.0 Lsize=     235kB time=00:00:14.97 bitrate= 128.6kbits/s speed=31.7x    
+video:0kB audio:235kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.166816%
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, mp3, from 'C:\Lab2Mus\Crazy Town - Butterfly.mp3':
+  Metadata:
+    title           : Butterfly (phonk by scr1m) | Music Visualization
+    artist          : Crazy Town
+    comment         : преобразованно с помощью https://yt2mp3.org
+    encoder         : Lavf56.33.100
+  Duration: 00:02:56.45, start: 0.023021, bitrate: 143 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 143 kb/s
+    Metadata:
+      encoder         : Lavc56.38
+  Stream #0:1: Video: mjpeg (Progressive), yuvj444p(pc, bt470bg/unknown/unknown), 300x300 [SAR 72:72 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+Stream mapping:
+  Stream #0:1 -> #0:0 (mjpeg (native) -> png (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[swscaler @ 0000014ecde5dac0] deprecated pixel format used, make sure you did set range correctly
+[vost#0:0/png @ 0000014ecd9b71c0] Frame rate very high for a muxer not efficiently supporting it.
+Please consider specifying a lower framerate, a different muxer or setting vsync/fps_mode to vfr
+Output #0, mp3, to 'C:\Lab2Mus\tmp\mix1.mp3':
+  Metadata:
+    TIT2            : Butterfly (phonk by scr1m) | Music Visualization
+    TPE1            : Crazy Town
+    comment         : преобразованно с помощью https://yt2mp3.org
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Video: png, rgb24, 300x300 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 90k fps, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+      encoder         : Lavc60.5.100 png
+  Stream #0:1: Audio: mp3, 48000 Hz, stereo, fltp
+    Metadata:
+      encoder         : Lavc60.5.100 libmp3lame
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:14.88 bitrate=   0.1kbits/s speed=26.2x    [mp3 @ 0000014ecd9d9040] No packets were sent for some of the attached pictures.
+frame=    0 fps=0.0 q=0.0 Lsize=     235kB time=00:00:14.97 bitrate= 128.6kbits/s speed=26.1x    
+video:0kB audio:235kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.167648%
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+[mp3 @ 0000015f90567f80] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'C:\Lab2Mus\Enchanted Forest.mp3':
+  Metadata:
+    encoder         : Lavf57.72.101
+  Duration: 00:36:21.00, start: 0.000000, bitrate: 320 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 320 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'C:\Lab2Mus\tmp\mix2.mp3':
+  Metadata:
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp
+    Metadata:
+      encoder         : Lavc60.5.100 libmp3lame
+size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    size=     235kB time=00:00:14.97 bitrate= 128.5kbits/s speed=41.2x    
+video:0kB audio:235kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.098176%
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, mp3, from 'C:\Lab2Mus\Micha Moor - Slip and slide.mp3':
+  Metadata:
+    title           : Slip and slide (Bershka Mix) | Music Visualization
+    artist          : Micha Moor
+    comment         : преобразованно с помощью https://yt2mp3.org
+    encoder         : Lavf56.33.100
+  Duration: 00:02:18.84, start: 0.023021, bitrate: 139 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 138 kb/s
+    Metadata:
+      encoder         : Lavc56.38
+  Stream #0:1: Video: mjpeg (Progressive), yuvj444p(pc, bt470bg/unknown/unknown), 300x300 [SAR 72:72 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+Stream mapping:
+  Stream #0:1 -> #0:0 (mjpeg (native) -> png (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[swscaler @ 0000015828d81f80] deprecated pixel format used, make sure you did set range correctly
+[vost#0:0/png @ 00000158288e1600] Frame rate very high for a muxer not efficiently supporting it.
+Please consider specifying a lower framerate, a different muxer or setting vsync/fps_mode to vfr
+Output #0, mp3, to 'C:\Lab2Mus\tmp\mix3.mp3':
+  Metadata:
+    TIT2            : Slip and slide (Bershka Mix) | Music Visualization
+    TPE1            : Micha Moor
+    comment         : преобразованно с помощью https://yt2mp3.org
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Video: png, rgb24, 300x300 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 90k fps, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+      encoder         : Lavc60.5.100 png
+  Stream #0:1: Audio: mp3, 48000 Hz, stereo, fltp
+    Metadata:
+      encoder         : Lavc60.5.100 libmp3lame
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:14.88 bitrate=   0.1kbits/s speed=32.4x    [mp3 @ 00000158288e7440] No packets were sent for some of the attached pictures.
+frame=    0 fps=0.0 q=0.0 Lsize=     235kB time=00:00:14.97 bitrate= 128.6kbits/s speed=31.9x    
+video:0kB audio:235kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.168480%
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, mp3, from 'C:\Lab2Mus\New Project - Ora Pro Nobis.mp3':
+  Metadata:
+    title           : Ora Pro Nobis (Zardonic Remix) | Music Visualization
+    artist          : New Project
+    comment         : преобразованно с помощью https://yt2mp3.org
+    encoder         : Lavf56.33.100
+  Duration: 00:04:15.14, start: 0.023021, bitrate: 133 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 132 kb/s
+    Metadata:
+      encoder         : Lavc56.38
+  Stream #0:1: Video: mjpeg (Progressive), yuvj444p(pc, bt470bg/unknown/unknown), 300x300 [SAR 72:72 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+Stream mapping:
+  Stream #0:1 -> #0:0 (mjpeg (native) -> png (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[swscaler @ 000001ba8520f000] deprecated pixel format used, make sure you did set range correctly
+[vost#0:0/png @ 000001ba84d6eec0] Frame rate very high for a muxer not efficiently supporting it.
+Please consider specifying a lower framerate, a different muxer or setting vsync/fps_mode to vfr
+Output #0, mp3, to 'C:\Lab2Mus\tmp\mix4.mp3':
+  Metadata:
+    TIT2            : Ora Pro Nobis (Zardonic Remix) | Music Visualization
+    TPE1            : New Project
+    comment         : преобразованно с помощью https://yt2mp3.org
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Video: png, rgb24, 300x300 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 90k fps, 90k tbn (attached pic)
+    Metadata:
+      title           : Cover
+      comment         : Cover (front)
+      encoder         : Lavc60.5.100 png
+  Stream #0:1: Audio: mp3, 48000 Hz, stereo, fltp
+    Metadata:
+      encoder         : Lavc60.5.100 libmp3lame
+frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:14.88 bitrate=   0.1kbits/s speed=26.2x    [mp3 @ 000001ba84d6d700] No packets were sent for some of the attached pictures.
+frame=    0 fps=0.0 q=0.0 Lsize=     235kB time=00:00:14.97 bitrate= 128.6kbits/s speed=25.9x    
+video:0kB audio:235kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.169728%
+ffmpeg version 2023-03-02-git-814178f926-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  3.100 / 58.  3.100
+  libavcodec     60.  5.100 / 60.  5.100
+  libavformat    60.  4.100 / 60.  4.100
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  4.100 /  9.  4.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, concat, from 'musicMix_List.txt':
+  Duration: N/A, start: -0.023021, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.5.
+Output #0, mp3, to 'RV-mix.mp3':
+  Metadata:
+    TSSE            : Lavf60.4.100
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.5.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Press [q] to stop, [?] for help
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=    1174kB time=00:01:15.09 bitrate= 128.1kbits/s speed=2.13e+03x    
+video:0kB audio:1174kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.035610%
